@@ -1,0 +1,34 @@
+body {
+  background: #ededed;
+}
+
+.img-custom {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.title-custom {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.data-desc {
+  max-width: 450px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.desc-custom {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+}
